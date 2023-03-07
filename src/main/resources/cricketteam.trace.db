@@ -1,0 +1,107 @@
+2023-03-07 05:13:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table \000d\000ateam(\000d\000aplayerName VARCHAR(255),\000d\000ajerseyNumber INT[*](255), \000d\000arole VARCHAR(255)\000d\000a)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+create table 
+team(
+playerName VARCHAR(255),
+jerseyNumber INT(255), 
+role VARCHAR(255)
+) [42001-214]
+2023-03-07 05:16:20 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table \000d\000ateam(\000d\000aplayerId INT PRIMARY KEY AUTO_INCREMENT,\000d\000aplayerName VARCHAR(255),\000d\000ajerseyNumber INT[*](255), \000d\000arole VARCHAR(255)\000d\000a)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+create table 
+team(
+playerId INT PRIMARY KEY AUTO_INCREMENT,
+playerName VARCHAR(255),
+jerseyNumber INT(255), 
+role VARCHAR(255)
+) [42001-214]
+2023-03-07 05:22:27 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playerName,jerseyNumber,role) values('usha','7','UI developer')"; expected "TRUNCATE"; SQL statement:
+team (playerName,jerseyNumber,role) values('usha','7','UI developer') [42001-214]
+2023-03-07 05:22:27 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playerName,jerseyNumber,role) values('narahari','7','data scientist')"; expected "TRUNCATE"; SQL statement:
+team (playerName,jerseyNumber,role) values('narahari','7','data scientist') [42001-214]
+2023-03-07 05:22:27 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playerName,jerseyNumber,role) values('vijaya','7',' fullstack developer')"; expected "TRUNCATE"; SQL statement:
+team (playerName,jerseyNumber,role) values('vijaya','7',' fullstack developer') [42001-214]
+2023-03-07 05:22:27 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playerName,jerseyNumber,role) values('pavitra','7','data analyst')"; expected "TRUNCATE"; SQL statement:
+team (playerName,jerseyNumber,role) values('pavitra','7','data analyst') [42001-214]
+2023-03-07 05:23:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('usha','7','UI developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('usha','7','UI developer') [42001-214]
+2023-03-07 05:23:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('narahari','7','data scientist')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('narahari','7','data scientist') [42001-214]
+2023-03-07 05:23:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('vijaya','7',' fullstack developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('vijaya','7',' fullstack developer') [42001-214]
+2023-03-07 05:23:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playerNname,jerseynumber,role) values('pavitra','7','data analyst')"; expected "TRUNCATE"; SQL statement:
+team (playerNname,jerseynumber,role) values('pavitra','7','data analyst') [42001-214]
+2023-03-07 05:23:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('usha','7','UI developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('usha','7','UI developer') [42001-214]
+2023-03-07 05:23:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('narahari','7','data scientist')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('narahari','7','data scientist') [42001-214]
+2023-03-07 05:23:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('vijaya','7',' fullstack developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('vijaya','7',' fullstack developer') [42001-214]
+2023-03-07 05:23:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playerNname,jerseynumber,role) values('pavitra','7','data analyst')"; expected "TRUNCATE"; SQL statement:
+team (playerNname,jerseynumber,role) values('pavitra','7','data analyst') [42001-214]
+2023-03-07 05:24:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('usha','5','UI developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('usha','5','UI developer') [42001-214]
+2023-03-07 05:24:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('narahari','1','data scientist')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('narahari','1','data scientist') [42001-214]
+2023-03-07 05:24:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('vijaya','2',' fullstack developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('vijaya','2',' fullstack developer') [42001-214]
+2023-03-07 05:24:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playerNname,jerseynumber,role) values('pavitra','33','data analyst')"; expected "TRUNCATE"; SQL statement:
+team (playerNname,jerseynumber,role) values('pavitra','33','data analyst') [42001-214]
+2023-03-07 05:25:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('usha','5','UI developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('usha','5','UI developer') [42001-214]
+2023-03-07 05:25:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('narahari','1','data scientist')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('narahari','1','data scientist') [42001-214]
+2023-03-07 05:25:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('vijaya','2',' fullstack developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('vijaya','2',' fullstack developer') [42001-214]
+2023-03-07 05:25:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('pavitra','33','data analyst')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('pavitra','33','data analyst') [42001-214]
+2023-03-07 05:27:12 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('usha','5','UI developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('usha','5','UI developer') [42001-214]
+2023-03-07 05:27:12 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('narahari','1','data scientist')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('narahari','1','data scientist') [42001-214]
+2023-03-07 05:27:12 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('vijaya','2',' fullstack developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('vijaya','2',' fullstack developer') [42001-214]
+2023-03-07 05:27:12 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('pavitra','33','data analyst')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('pavitra','33','data analyst') [42001-214]
+2023-03-07 05:27:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('narahari','1','data scientist')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('narahari','1','data scientist') [42001-214]
+2023-03-07 05:27:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('vijaya','2',' fullstack developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('vijaya','2',' fullstack developer') [42001-214]
+2023-03-07 05:27:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('pavitra','33','data analyst')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('pavitra','33','data analyst') [42001-214]
+2023-03-07 05:28:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('vijaya','2',' fullstack developer')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('vijaya','2',' fullstack developer') [42001-214]
+2023-03-07 05:28:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('pavitra','33','data analyst')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('pavitra','33','data analyst') [42001-214]
+2023-03-07 05:28:15 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]team (playername,jerseynumber,role) values('pavitra','33','data analyst')"; expected "TRUNCATE"; SQL statement:
+team (playername,jerseynumber,role) values('pavitra','33','data analyst') [42001-214]
